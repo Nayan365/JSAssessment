@@ -33,8 +33,10 @@ for(let i=0;i<NFTs.length;i++){
    console.log("Eyecolor: " + NFTs[i].eyeColor);
    console.log("Shirt Type: " + NFTs[i].shirtType);
    console.log("bling: " + NFTs[i].bling);
+ 
 }
 }
+
 
 // print the total number of NFTs we have minted to the console
 function getTotalSupply() {
@@ -43,5 +45,7 @@ function getTotalSupply() {
 
 // call your functions below this line
 mintNFT("Bob","Blue","Hoodie","Gold Chain");
+mintNFT("Tom","Red","Jacket","Silver Chain");
+mintNFT("John","Brown","Shirt","Platinum Chain");
 listNFTs();
 getTotalSupply();
